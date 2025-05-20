@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+        #main {
+            width: 100%;
+            height: 500px;
+            background-color: #a1a1a1;
+            position: relative;
+        }
+        .section1 {
+            width: 33.3333%;
+            position: absolute;
+            left: 0;
+        }
+        .section1-1 {
+            width: 100%;
+            height: 250px;
+            background-color: #b4b4b4;
+            text-align: center;
+            line-height: 250px;
+        }
+        .section1-2 {
+            width: 90px;
+            height: 50px;
+            background-color: #b9b9b9;
+            text-align: center;
+            line-height: 50px;
+        }
+        .section2 {
+            width: 33.3333%;
+            height: 500px;
+            position: absolute;
+            right: 0;
+        }
+        .section2-1 {
+            width: 100%;
+            height: 100px;
+            background-color: #c9c9c9;
+            text-align: center;
+            line-height: 100px;
+        }
+        .section2-2 {
+            width: 100%;
+            height: 150px;
+            background-color: #c4c4c4;
+            text-align: center;
+            line-height: 150px;
+        }
+        .section2-3 {
+            width: 100%;
+            display: flex;
+        }
+        .section2-3-1 {
+            width: 66.6666%;
+            height: 50px;
+            background-color: #d4d4d4;
+            text-align: center;
+            line-height: 50px;
+        }
+        .section2-3-2 {
+            width: 33.3333%;
+            height: 50px;
+            background-color: #d9d9d9;
+            text-align: center;
+            line-height: 50px;
+        }
+        .section3 {
+            width: 45%;
+            height: 200px;
+            background-color: #e4e4e4;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            line-height: 200px;
+        }
+        .section4 {
+             width: 55%;
+            height: 200px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+            line-height: 150px;
+        }
+        .section5 {
+            width: 33.3333%;
+            position: absolute;
+            right: 266px;
+            height: 250px;
+            text-align: center;
+            line-height: 150px;
+        }
+        #footer {
+            width: 100%;
+            height: 100px;
+            background-color: #a9a9a9;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <main id="main">
+            <div class="section1">
+                <div class="section1-1">
+                    <h2>침실2</h2>
+                </div>
+                <div class="section1-2">
+                    <h2>현관</h2>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="section2-1">
+                    <h2>다용도실</h2>
+                </div>
+                <div class="section2-2">
+                    <h2>침실3</h2>
+                </div>
+                <div class="section2-3">
+                    <div class="section2-3-1">
+                        <h2>욕실1</h2>
+                    </div>
+                    <div class="section2-3-2">
+                        <h2>욕실2</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section3">
+                <h2>침실1</h2>
+            </div>
+            <div class="section4">
+                <h2>거실</h2>
+            </div>
+            <div class="section5">
+                <h2>주방</h2>
+            </div>
+        </main>
+        <footer id="footer">
+            <h2>발코니</h2>
+        </footer>
+    </div>
+</body>
+</html>
